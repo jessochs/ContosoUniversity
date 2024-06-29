@@ -1,5 +1,6 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 a.navbar-brand {
   white-space: normal;
@@ -56,16 +57,54 @@ button.accept-policy {
 html {
   position: relative;
   min-height: 100%;
+  
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+   
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: darkolivegreen;
+    color: white;
+}
+footer a {
+    color: white;
+}
+
+div {
+    padding: 10px;
+}
+.jumbotron {
+    background-color: darkolivegreen;
+    color: white;
+}
+.home-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+table a {
+    color: black;
+}
+table {
+    background-color: #d8bfd8;
+    border: solid black;
+    border-width: 2px;
+}
+.about th, .about td {
+    padding: 10px;
+}
+p { 
+    color: black;
+}
+.contact {
+    padding: 10px;
+    margin: auto;
 }
